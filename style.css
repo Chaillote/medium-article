@@ -1,0 +1,153 @@
+body {
+  background: #f2f2ec;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-family: 'PT Serif', serif;
+  color: #3d3c38;
+  text-align:end ;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width:auto;
+}
+
+h2 {
+  color: #4b3971;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: medium 500;
+  letter-spacing: 0.5px;
+  font-weight:bold;
+}
+
+h3{
+  color: #4b3971;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: medium 500;
+  letter-spacing: 0.5px;
+  font-weight:bold;
+}
+
+h4 {
+  color: #4b3971;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: medium 500;
+  letter-spacing: 0.5px;
+  font-weight:bold;
+}
+h5 {
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-family: 'PT Serif', serif;
+  color: #3d3c38;
+  text-align:end ;
+  position: absolute;
+  left: 90%;
+  top: 215%;
+}
+
+p{
+  color: #4e24a8;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: medium 500;
+  letter-spacing: 0.5px;
+  text-align:justify;
+  line-height: 1.6;
+  width: 1000px ;
+  margin: auto;
+}
+
+
+a{
+  text-decoration: none;
+  background-color: #9ebdeb;
+  border-radius: 10px;
+  font-size: 20px;
+
+}
+
+a:hover{
+
+  background-color:#746499;
+  border-radius: 25px;
+}
+
+@media (max-width: 992px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  background-image: url("https://r.lvmh-static.com/uploads/2021/09/news-cover-14-2000x1100.jpg");
+  height: 500px;
+  background-color: #f2f2ec;
+}
+
+.p-couleur{
+  text-align:center;
+  background-color: #f2f2ec;
+  padding-bottom: 10px;
+  border-radius: 15px;
+}
+
+.b-couleur{
+  text-align:center;
+  background-color: #F7F9FC;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  background-color: #f2f2ec;
+}
+
+.link-shop{
+  text-align:center;
+  background-color: #F7F9FC;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  background-color: #f2f2ec;
+
+}
+
+.image-size{
+  width : 10vw;
+  height : 10vh;
+  max-width : 200px;
+  max-height : 150px;
+  background-color: #f2f2ec;
+
+}
+
+.end-color{
+  background-image: url("https://jingdaily.com/wp-content/uploads/2021/08/louis-the-game-hero-1240x698.png");
+  height: 500px;
+  background-color: #f2f2ec;
+
+}
